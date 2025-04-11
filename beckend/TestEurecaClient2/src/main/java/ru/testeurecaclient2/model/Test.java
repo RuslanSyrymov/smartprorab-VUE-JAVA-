@@ -11,6 +11,7 @@ import lombok.*;
 @AllArgsConstructor
 @Table(name = "test")
 public class Test {
+    
     @Id
     @Column(name = "id")
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
