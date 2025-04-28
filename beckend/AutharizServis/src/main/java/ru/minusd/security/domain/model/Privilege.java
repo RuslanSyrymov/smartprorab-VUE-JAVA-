@@ -10,7 +10,7 @@ import lombok.*;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name = "privilege")
+@Table(name = "personal_privilege")
 public class Privilege {
     @Id
     @Column(name = "id")
@@ -20,7 +20,7 @@ public class Privilege {
     @Column(name = "personal_id")
     private Long personal_id;
 
-    @Column(name = "privilege_name")
+    @Column(name = "privilege")
     private String privilege_name;
 }
 

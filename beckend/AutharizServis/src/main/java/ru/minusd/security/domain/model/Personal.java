@@ -9,7 +9,7 @@ import lombok.*;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name = "personal")
+@Table(name = "personals")
 public class Personal {
     @Id
     @Column(name = "id")
@@ -19,6 +19,6 @@ public class Personal {
     @Column(name = "name")
     private String name;
 
-    @Column(name = "personal_email")
+    @Column(name = "email")
     private String personal_email;
 }

@@ -15,7 +15,7 @@ import java.util.Optional;
 @Repository
 public interface PrivilegeRepository extends JpaRepository<Privilege, Long> {
 
-    @Query(value = "SELECT privilege_name FROM privilege WHERE personal_id = :value", nativeQuery = true)
+    @Query(value = "SELECT privilege FROM personal_privilege WHERE personal_id = :value", nativeQuery = true)
     List<PrivilegesDTO> findByPrivilege(@Param("value") Long value);
 }
 

@@ -3,14 +3,14 @@ spring:
     name: security-security
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: "jdbc:postgresql://localhost:5432/autherizacion"
+    url: "jdbc:postgresql://localhost:5432/ruslansyrymov"
     username: "postgres"
     password: "1234"
   jpa:
     hibernate:
       naming:
         database-platform: org.hibernate.dialect.PostgreSQLDialect
-      ddl-auto: validate
+      ddl-auto: create
     show-sql: true
     properties:
       hibernate:
