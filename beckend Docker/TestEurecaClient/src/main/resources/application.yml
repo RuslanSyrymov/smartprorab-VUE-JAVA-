@@ -1,0 +1,11 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: RecurseServer
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://eurekaserves:8761/eureka/

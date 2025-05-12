@@ -1,0 +1,95 @@
+volumes:
+  pgdata:
+    driver: local
+
+networks:
+  spring-cloud-network:
+    driver: bridge
+
+services:
+  AuthDb:
+    image: postgres:16.1
+    container_name: AuthDb
+    restart: always
+    ports:
+      - "5433:5432"
+    networks:
+      - spring-cloud-network
+    depends_on:
+      - EurekaService
+    environment:
+      - POSTGRES_DB=auth_db
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - PGDATA=/var/lib/postgresql/data/pgdata
+      - POSTGRES_INITDB_ARGS=--encoding=UTF-8
+    volumes:
+      - ./auth_db/auth_db.sql:/docker-entrypoint-initdb.d/auth_db.sql
+      - pgdata:/var/lib/postgresql/data
+
+  ResourceDb:
+    image: postgres:16.1
+    container_name: ResourceDb
+    ports:
+      - "5434:5432"
+    networks:
+      - spring-cloud-network
+    restart: always
+    depends_on:
+      - EurekaService
+    environment:
+      - POSTGRES_DB=resource_db
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=1234
+      - PGDATA=/var/lib/postgresql/data/pgdata
+      - POSTGRES_INITDB_ARGS=--encoding=UTF-8
+    volumes:
+      - ./resource_db/resource_db.sql:/docker-entrypoint-initdb.d/resource_db.sql
+
+  AuthorizeService:
+      image: authorize_service:0.0.1
+      container_name: AuthorizeService
+      networks:
+        - spring-cloud-network
+      build:
+        context: ../AuthorizationService
+        dockerfile: ../AuthorizationService/Dockerfile
+      depends_on:
+        - EurekaService
+        - AuthDb
+        - GatewayService
+
+  GatewayService:
+    image: gateway_service:0.0.1
+    container_name: GatewayService
+    ports:
+      - "8080:8080"
+    networks:
+      - spring-cloud-network
+    build:
+      context: ../GatewayApi
+      dockerfile: ../GatewayApi/Dockerfile
+
+  EurekaService:
+    image: eureka_service:0.0.1
+    container_name: EurekaService
+    ports:
+      - "8761:8761"
+    networks:
+        - spring-cloud-network
+    build:
+      context: ../EurekaServes
+      dockerfile: ../EurekaServes/Dockerfile
+
+  ResourceService:
+    image: recurse_service:0.0.1
+    container_name: ResourceService
+    networks:
+      - spring-cloud-network
+    build:
+      context: ../ResourceService
+      dockerfile: ../ResourceService/Dockerfile
+    depends_on:
+      - EurekaService
+      - ResourceDb
+      - GatewayService

@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="097afa19-5dbc-42e5-99a2-bf0da53e96c8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/minusd/security/domain/model/Personal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/minusd/security/domain/model/Privilege.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ru/minusd/security/service/JwtService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EurekaServes/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EurekaServes/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gateway/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestEurecaClient2/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/docker-compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/test_db.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/users_db.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../postgresql/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/.idea/dataSources/3cd4db0b-0f80-492e-a2d3-4eb8a86c631d.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/.idea/dataSources/3cd4db0b-0f80-492e-a2d3-4eb8a86c631d/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/.idea/dataSources/3cd4db0b-0f80-492e-a2d3-4eb8a86c631d/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/.idea/dataSources/3cd4db0b-0f80-492e-a2d3-4eb8a86c631d/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/.idea/dataSources/3cd4db0b-0f80-492e-a2d3-4eb8a86c631d/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/.idea/dataSources/7630f940-c26d-43aa-99a3-94e625373f67.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/.idea/dataSources/7630f940-c26d-43aa-99a3-94e625373f67/storage_v2/_src_/database/ruslansyrymov.nvdWFQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/.idea/dataSources/7630f940-c26d-43aa-99a3-94e625373f67/storage_v2/_src_/database/ruslansyrymov.nvdWFQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/.idea/dataSources/7630f940-c26d-43aa-99a3-94e625373f67/storage_v2/_src_/database/ruslansyrymov.nvdWFQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/.idea/dataSources/7630f940-c26d-43aa-99a3-94e625373f67/storage_v2/_src_/database/ruslansyrymov.nvdWFQ/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/src/main/java/ru/minusd/security/SpringSecurityApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/minusd/security/SpringSecurityApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/src/main/java/ru/minusd/security/config/JwtAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/minusd/security/config/JwtAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/src/main/java/ru/minusd/security/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/minusd/security/config/SecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/src/main/java/ru/minusd/security/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/minusd/security/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/src/main/java/ru/minusd/security/controller/ExampleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/minusd/security/controller/ExampleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/src/main/java/ru/minusd/security/domain/Enum/Privilege.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/minusd/security/domain/Enum/Privilege.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/src/main/java/ru/minusd/security/domain/Enum/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/minusd/security/domain/Enum/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/src/main/java/ru/minusd/security/domain/dto/JwtAuthenticationResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/minusd/security/domain/dto/JwtAuthenticationResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/src/main/java/ru/minusd/security/domain/dto/PersonalDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/minusd/security/domain/dto/PersonalDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/src/main/java/ru/minusd/security/domain/dto/PrivilegesDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/minusd/security/domain/dto/PrivilegesDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/src/main/java/ru/minusd/security/domain/dto/SignInRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/minusd/security/domain/dto/SignInRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/src/main/java/ru/minusd/security/domain/dto/SignUpRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/minusd/security/domain/dto/SignUpRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/src/main/java/ru/minusd/security/domain/dto/UserTokenValid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/minusd/security/domain/dto/UserTokenValid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/src/main/java/ru/minusd/security/domain/dto/ValidToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/minusd/security/domain/dto/ValidToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/src/main/java/ru/minusd/security/domain/model/Personal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/minusd/security/domain/model/Personal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/src/main/java/ru/minusd/security/domain/model/Privilege.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/minusd/security/domain/model/Privilege.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/src/main/java/ru/minusd/security/domain/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/minusd/security/domain/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/src/main/java/ru/minusd/security/repository/PersonalRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/minusd/security/repository/PersonalRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/src/main/java/ru/minusd/security/repository/PrivilegeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/minusd/security/repository/PrivilegeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/src/main/java/ru/minusd/security/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/minusd/security/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/src/main/java/ru/minusd/security/service/AuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/minusd/security/service/AuthenticationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/src/main/java/ru/minusd/security/service/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/minusd/security/service/JwtService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/src/main/java/ru/minusd/security/service/PersonalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/minusd/security/service/PersonalService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/src/main/java/ru/minusd/security/service/PrivilegeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/minusd/security/service/PrivilegeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/src/main/java/ru/minusd/security/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/minusd/security/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/src/test/java/ru/minusd/security/SpringSecurityApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/minusd/security/SpringSecurityApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/target/classes/ru/minusd/security/SpringSecurityApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/minusd/security/SpringSecurityApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/target/classes/ru/minusd/security/config/JwtAuthenticationFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/minusd/security/config/JwtAuthenticationFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/target/classes/ru/minusd/security/config/SecurityConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/minusd/security/config/SecurityConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/target/classes/ru/minusd/security/controller/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/minusd/security/controller/AuthController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/target/classes/ru/minusd/security/controller/ExampleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/minusd/security/controller/ExampleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/target/classes/ru/minusd/security/domain/Enum/Privilege.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/minusd/security/domain/Enum/Privilege.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/target/classes/ru/minusd/security/domain/Enum/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/minusd/security/domain/Enum/Role.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/target/classes/ru/minusd/security/domain/dto/JwtAuthenticationResponse$JwtAuthenticationResponseBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/minusd/security/domain/dto/JwtAuthenticationResponse$JwtAuthenticationResponseBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/target/classes/ru/minusd/security/domain/dto/JwtAuthenticationResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/minusd/security/domain/dto/JwtAuthenticationResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/target/classes/ru/minusd/security/domain/dto/PersonalDTO$PersonalDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/minusd/security/domain/dto/PersonalDTO$PersonalDTOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/target/classes/ru/minusd/security/domain/dto/PersonalDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/minusd/security/domain/dto/PersonalDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/target/classes/ru/minusd/security/domain/dto/PrivilegesDTO$PrivilegesDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/minusd/security/domain/dto/PrivilegesDTO$PrivilegesDTOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/target/classes/ru/minusd/security/domain/dto/PrivilegesDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/minusd/security/domain/dto/PrivilegesDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/target/classes/ru/minusd/security/domain/dto/SignInRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/minusd/security/domain/dto/SignInRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/target/classes/ru/minusd/security/domain/dto/SignUpRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/minusd/security/domain/dto/SignUpRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/target/classes/ru/minusd/security/domain/dto/UserTokenValid.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/minusd/security/domain/dto/UserTokenValid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/target/classes/ru/minusd/security/domain/dto/ValidToken$ValidTokenBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/minusd/security/domain/dto/ValidToken$ValidTokenBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/target/classes/ru/minusd/security/domain/dto/ValidToken.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/minusd/security/domain/dto/ValidToken.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/target/classes/ru/minusd/security/domain/model/Personal$PersonalBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/minusd/security/domain/model/Personal$PersonalBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/target/classes/ru/minusd/security/domain/model/Personal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/target/classes/ru/minusd/security/domain/model/Privilege$PrivilegeBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/minusd/security/domain/model/Privilege$PrivilegeBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/target/classes/ru/minusd/security/domain/model/Privilege.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/target/classes/ru/minusd/security/domain/model/User$UserBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/minusd/security/domain/model/User$UserBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/target/classes/ru/minusd/security/domain/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/minusd/security/domain/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/target/classes/ru/minusd/security/repository/PersonalRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/minusd/security/repository/PersonalRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/target/classes/ru/minusd/security/repository/PrivilegeRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/minusd/security/repository/PrivilegeRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/target/classes/ru/minusd/security/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/minusd/security/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/target/classes/ru/minusd/security/service/AuthenticationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/minusd/security/service/AuthenticationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/target/classes/ru/minusd/security/service/JwtService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/target/classes/ru/minusd/security/service/PersonalService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/minusd/security/service/PersonalService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/target/classes/ru/minusd/security/service/PrivilegeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/minusd/security/service/PrivilegeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutharizServis/target/classes/ru/minusd/security/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/minusd/security/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EurecaServis/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EurekaServes/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EurecaServis/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EurekaServes/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EurecaServis/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EurekaServes/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EurecaServis/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EurekaServes/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EurecaServis/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EurekaServes/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EurecaServis/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Gateway/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EurecaServis/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EurekaServes/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EurecaServis/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EurecaServis/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/../EurekaServes/HELP.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EurecaServis/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/../EurekaServes/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EurecaServis/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../EurekaServes/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EurecaServis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EurekaServes/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EurecaServis/src/main/java/ru/eurecaservis/EurecaServisApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EurekaServes/src/main/java/ru/eurekaserves/EurecaServisApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EurecaServis/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../EurekaServes/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EurecaServis/src/test/java/ru/eurecaservis/EurecaServisApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EurekaServes/src/test/java/ru/eurecaservis/EurecaServisApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EurecaServis/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../EurekaServes/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EurecaServis/target/classes/ru/eurecaservis/EurecaServisApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../EurekaServes/target/classes/ru/eurecaservis/EurecaServisApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gatewey/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Gateway/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gatewey/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Gateway/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gatewey/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Gateway/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gatewey/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Gateway/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gatewey/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Gateway/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gatewey/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EurekaServes/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gatewey/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Gateway/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gatewey/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Gateway/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gatewey/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Gateway/HELP.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gatewey/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/../Gateway/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gatewey/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../Gateway/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gatewey/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gatewey/src/main/java/ru/gatewey/DTO/JwtAuthenticationResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Gateway/src/main/java/ru/gatewey/DTO/JwtAuthenticationResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gatewey/src/main/java/ru/gatewey/GateweyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Gateway/src/main/java/ru/gatewey/GateweyApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gatewey/src/main/java/ru/gatewey/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Gateway/src/main/java/ru/gatewey/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gatewey/src/main/java/ru/gatewey/filter/AuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Gateway/src/main/java/ru/gatewey/filter/AuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gatewey/src/main/java/ru/gatewey/filter/RouteValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Gateway/src/main/java/ru/gatewey/filter/RouteValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gatewey/src/main/java/ru/gatewey/util/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Gateway/src/main/java/ru/gatewey/util/JwtUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gatewey/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../Gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gatewey/src/test/java/ru/gatewey/GateweyApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Gateway/src/test/java/ru/gatewey/GateweyApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gatewey/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../Gateway/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gatewey/target/classes/ru/gatewey/DTO/JwtAuthenticationResponse$JwtAuthenticationResponseBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Gateway/target/classes/ru/gatewey/DTO/JwtAuthenticationResponse$JwtAuthenticationResponseBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gatewey/target/classes/ru/gatewey/DTO/JwtAuthenticationResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Gateway/target/classes/ru/gatewey/DTO/JwtAuthenticationResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gatewey/target/classes/ru/gatewey/GateweyApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Gateway/target/classes/ru/gatewey/GateweyApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gatewey/target/classes/ru/gatewey/config/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Gateway/target/classes/ru/gatewey/config/AppConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gatewey/target/classes/ru/gatewey/filter/AuthenticationFilter$Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Gateway/target/classes/ru/gatewey/filter/AuthenticationFilter$Config.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gatewey/target/classes/ru/gatewey/filter/AuthenticationFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Gateway/target/classes/ru/gatewey/filter/AuthenticationFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gatewey/target/classes/ru/gatewey/filter/RouteValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Gateway/target/classes/ru/gatewey/filter/RouteValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gatewey/target/classes/ru/gatewey/util/JwtUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Gateway/target/classes/ru/gatewey/util/JwtUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestEurecaClient2/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../TestEurecaClient2/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestEurecaClient2/target/classes/ru/testeurecaclient2/config/personal/PersonalDTO$PersonalDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TestEurecaClient2/target/classes/ru/testeurecaclient2/config/personal/PersonalDTO$PersonalDTOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestEurecaClient2/target/classes/ru/testeurecaclient2/config/personal/PersonalDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TestEurecaClient2/target/classes/ru/testeurecaclient2/config/personal/PersonalDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestEurecaClient2/target/classes/ru/testeurecaclient2/config/personal/PrivilegesDTO$PrivilegesDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TestEurecaClient2/target/classes/ru/testeurecaclient2/config/personal/PrivilegesDTO$PrivilegesDTOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestEurecaClient2/target/classes/ru/testeurecaclient2/config/personal/PrivilegesDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TestEurecaClient2/target/classes/ru/testeurecaclient2/config/personal/PrivilegesDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestEurecaClient2/target/classes/ru/testeurecaclient2/model/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TestEurecaClient2/target/classes/ru/testeurecaclient2/model/Test.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dockerfile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2vb2YXaiIfk3A1aHJrgUChivh9x" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Docker.Dockerfile builder.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yaml: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.SpringSecurity [package].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.SpringSecurityApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ruslansyrymov/Developer/smartprorab-VUE-JAVA-/beckend/AuthorizeServes&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docker" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringSecurityApplication">
+    <configuration name="SpringSecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="SpringSecurity" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.minusd.security.SpringSecurityApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker/Dockerfile: Compose Deployment" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="maven3.8.4-openjdk-17_builder" />
+          <option name="buildCliOptions" value="--target builder" />
+          <option name="buildOnly" value="true" />
+          <option name="sourceFilePath" value="docker/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker/docker-compose.yaml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker/docker-compose.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker/docker-compose.yaml: Compose Deployment" />
+        <item itemvalue="Docker.docker/Dockerfile: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="097afa19-5dbc-42e5-99a2-bf0da53e96c8" name="Changes" comment="" />
+      <created>1744399500848</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1744399500848</updated>
+      <workItem from="1744399502138" duration="62000" />
+      <workItem from="1744767486264" duration="41000" />
+      <workItem from="1744769523913" duration="1838000" />
+      <workItem from="1744773306129" duration="132000" />
+      <workItem from="1744773546690" duration="106000" />
+      <workItem from="1744808152707" duration="2673000" />
+      <workItem from="1744855100951" duration="628000" />
+      <workItem from="1744881477061" duration="14000" />
+      <workItem from="1744941539313" duration="35000" />
+      <workItem from="1744962653435" duration="2699000" />
+      <workItem from="1745669908507" duration="1906000" />
+      <workItem from="1745809321567" duration="5585000" />
+      <workItem from="1745891270881" duration="1000" />
+      <workItem from="1745891471591" duration="10269000" />
+      <workItem from="1746286616522" duration="1926000" />
+      <workItem from="1746326461768" duration="4000" />
+      <workItem from="1746359199111" duration="39000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
